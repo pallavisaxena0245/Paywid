@@ -32,7 +32,7 @@ const signinBody = z.object({
     password: z.string(),
 });
 
-// Signup route
+// Signup route  
 router.post('/signup', async (req, res, next) => {
     try {
         // Validate request body
